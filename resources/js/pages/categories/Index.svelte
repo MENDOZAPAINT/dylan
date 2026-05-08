@@ -17,8 +17,8 @@
     import DeleteCategory from '@/components/categories/DeleteCategory.svelte';
     import EditCategory from '@/components/categories/EditCategory.svelte';
     import * as Table from '@/components/ui/table';
-    import Checkbox from '@/components/ui/checkbox/Checkbox.svelte';
-    import Badge from '@/components/ui/badge/Badge.svelte';
+    import { Checkbox } from '@/components/ui/checkbox';
+    import { Badge } from '@/components/ui/badge';
 
     type Category = {
         id: number;
