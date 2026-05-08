@@ -5,7 +5,7 @@
     import * as Dialog from '@/components/ui/dialog';
     import { Input } from '@/components/ui/input';
     import { Label } from '@/components/ui/label';
-    import Checkbox from '../ui/checkbox/Checkbox.svelte';
+    import { Checkbox } from '../ui/checkbox';
 
     let open = $state(false);
     let isActive = $state(true);

@@ -128,7 +128,8 @@
                             </nav>
                             <div class="flex flex-col space-y-4">
                                 {#each rightNavItems as item (toUrl(item.href))}
-                                    <a
+
+                                    <!-- <a
                                         href={toUrl(item.href)}
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -138,7 +139,7 @@
                                             <item.icon class="h-5 w-5" />
                                         {/if}
                                         <span>{item.title}</span>
-                                    </a>
+                                    </a> -->
                                 {/each}
                             </div>
                         </div>
@@ -203,7 +204,9 @@
                                 <Tooltip>
                                     <TooltipTrigger>
                                         {#snippet child({ props })}
-                                            <a
+                                            svelte-ignore no-navigation-without-resolve
+
+                                            <!-- <a
                                                 href={toUrl(item.href)}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
@@ -216,7 +219,7 @@
                                                 <item.icon
                                                     class="size-5 opacity-80 group-hover:opacity-100"
                                                 />
-                                            </a>
+                                            </a> -->
                                         {/snippet}
                                     </TooltipTrigger>
                                     <TooltipContent>

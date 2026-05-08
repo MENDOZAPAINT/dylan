@@ -233,7 +233,6 @@
     }
 
     $effect(() => {
-        mensajes.length;
         tick().then(scrollToBottom);
     });
 </script>

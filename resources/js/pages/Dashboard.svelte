@@ -13,7 +13,6 @@
 
 <script lang="ts">
     import AppHead from '@/components/AppHead.svelte';
-    import PlaceholderPattern from '@/components/PlaceholderPattern.svelte';
 </script>
 
 <AppHead title="Dashboard" />

@@ -10,13 +10,11 @@
         SidebarMenu,
         SidebarMenuButton,
         SidebarMenuItem,
-        useSidebar,
     } from '@/components/ui/sidebar';
     import UserInfo from '@/components/UserInfo.svelte';
     import UserMenuContent from '@/components/UserMenuContent.svelte';
 
     const user = $derived(page.props.auth.user);
-    const { isMobile, state: sidebarState } = useSidebar();
 </script>
 
 {#if user}

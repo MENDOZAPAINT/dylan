@@ -76,7 +76,7 @@
                         required
                         class="border-input bg-background ring-offset-background focus-visible:ring-ring h-8 w-full rounded-md border px-3 text-sm focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
                     >
-                        {#each categories as category}
+                        {#each categories as category (category.id)}
                             <option
                                 value={category.id}
                                 selected={category.id === dish.category_id}

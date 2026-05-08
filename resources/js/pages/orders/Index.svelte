@@ -11,11 +11,7 @@
 
 <script lang="ts">
     import AppHead from '@/components/AppHead.svelte';
-    import DeleteOrder from '@/components/orders/DeleteOrder.svelte';
-    import EditOrder from '@/components/orders/EditOrder.svelte';
     import CreateTable from '@/components/tables/CreateTable.svelte';
-    import DeleteTable from '@/components/tables/DeleteTable.svelte';
-    import EditTable from '@/components/tables/EditTable.svelte';
     import { Badge } from '@/components/ui/badge';
     import * as Table from '@/components/ui/table';
 

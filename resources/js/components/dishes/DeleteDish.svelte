@@ -2,7 +2,7 @@
     import { Form } from '@inertiajs/svelte';
     import { Button, buttonVariants } from '@/components/ui/button';
     import * as Dialog from '@/components/ui/dialog';
-    import { Delete, DeleteIcon } from 'lucide-svelte';
+    import { DeleteIcon } from 'lucide-svelte';
 
     type Dish = {
         id: number;

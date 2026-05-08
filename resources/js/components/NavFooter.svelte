@@ -28,7 +28,7 @@
                         asChild
                     >
                         {#snippet children(props)}
-                            <a
+                            <!-- <a
                                 {...props}
                                 href={toUrl(item.href)}
                                 target="_blank"
@@ -39,7 +39,7 @@
                                     <item.icon class="size-4 shrink-0" />
                                 {/if}
                                 <span>{item.title}</span>
-                            </a>
+                            </a> -->
                         {/snippet}
                     </SidebarMenuButton>
                 </SidebarMenuItem>
